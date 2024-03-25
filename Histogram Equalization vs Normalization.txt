@@ -1,0 +1,14 @@
+Histogram equalization and normalization are both techniques used in image processing, but they serve different purposes and operate differently:
+
+Histogram Equalization:
+
+Histogram equalization is a technique used to enhance the contrast of an image by adjusting the distribution of intensity values in its histogram.
+It aims to spread out the intensity values across the entire range of possible values, resulting in a more balanced distribution and improved contrast.
+Histogram equalization is particularly effective for images with low contrast or limited dynamic range.
+
+Normalization:
+
+Normalization, in the context of image processing, typically refers to scaling the intensity values of an image to a predefined range, such as [0, 1] or [-1, 1].
+Normalization is often performed to standardize the intensity values of images across different datasets or to ensure that they fall within a specific numerical range suitable for processing or model training.
+Unlike histogram equalization, normalization does not alter the distribution of intensity values or enhance contrast. It simply scales the values to a desired range.
+In summary, histogram equalization and normalization are distinct techniques with different objectives. Histogram equalization enhances contrast by redistributing intensity values, while normalization scales intensity values to a predefined range without altering their distribution.
